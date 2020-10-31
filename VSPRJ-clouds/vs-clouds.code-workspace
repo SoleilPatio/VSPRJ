@@ -1,15 +1,27 @@
 {
 	"folders": [
 		{
+			"name": "VSPRJ-clouds",
 			"path": "."
 		},
 		{
+			"name": "hello-world",
 			"path": "D:\\PROJECT\\hello-world"
 		},
 		{
+			"name": "linux-env",
 			"path": "D:\\PROJECT\\linux-env"
 		},
 		{
+			"name": "cls-toolbox",
+			"path": "..\\..\\..\\..\\..\\BIN\\cls-toolbox"
+		},
+		{
+			"name": "snippets",
+			"path": "..\\..\\..\\..\\..\\..\\..\\..\\APN\\DEV\\VSCode-win32-x64\\data\\user-data\\User\\snippets"
+		},
+		{
+			"name": "WORK-D",
 			"path": "D:\\WORK-D"
 		}
 	],
