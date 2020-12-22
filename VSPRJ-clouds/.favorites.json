@@ -1,11 +1,11 @@
 [
     {
-        "type": "File",
-        "name": "d:\\PROJECT\\hello-world\\README",
+        "type": "Directory",
+        "name": "c:\\Users\\cloud\\OneDrive\\AppData\\VSCode\\workspace\\VSPRJ\\VSPRJ-clouds",
         "parent_id": null,
-        "fsPath": "d:\\PROJECT\\hello-world\\README",
+        "fsPath": "c:\\Users\\cloud\\OneDrive\\AppData\\VSCode\\workspace\\VSPRJ\\VSPRJ-clouds",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "dEAa05HKVeygMGhY"
+        "id": "j4qlm70IgzYtEaH9"
     }
 ]

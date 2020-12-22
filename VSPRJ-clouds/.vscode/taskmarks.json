@@ -1,0 +1,29 @@
+{
+	"activeTaskName": "default",
+	"tasks": [
+		{
+			"name": "default",
+			"files": [
+				{
+					"filepath": "d:\\PROJECT\\hello-world\\python\\PATTERN_SAMPLE\\data_model_test.py",
+					"marks": [
+						8
+					]
+				},
+				{
+					"filepath": "d:\\PROJECT\\hello-world\\python\\PATTERN_SAMPLE\\decorator_sample.py",
+					"marks": [
+						4
+					]
+				},
+				{
+					"filepath": "d:\\PROJECT\\hello-world\\t32cmm\\cmm_command_sample.cmm",
+					"marks": [
+						14,
+						33
+					]
+				}
+			]
+		}
+	]
+}

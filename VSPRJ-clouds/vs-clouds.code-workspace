@@ -26,6 +26,7 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": "C:\\APN\\DEV\\Python\\Portable Python-3.8.0 x64\\App\\Python\\python3.exe"
+		"python.pythonPath": "C:\\APN\\DEV\\Python\\Portable Python-3.8.0 x64\\App\\Python\\python3.exe",
+		"bookmarks.saveBookmarksInProject": true
 	}
 }
