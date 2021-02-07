@@ -17,6 +17,10 @@
 			"path": "..\\..\\..\\..\\..\\BIN\\cls-toolbox"
 		},
 		{
+			"name": "OneDrive",
+			"path": "..\\..\\..\\..\\.."
+		},
+		{
 			"name": "snippets",
 			"path": "..\\..\\..\\..\\..\\..\\..\\..\\APN\\DEV\\VSCode-win32-x64\\data\\user-data\\User\\snippets"
 		},
@@ -26,7 +30,8 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": "C:\\APN\\DEV\\Python\\Portable Python-3.8.0 x64\\App\\Python\\python3.exe",
-		"bookmarks.saveBookmarksInProject": true
+		"python.pythonPath": "C:\\APN\\DEV\\PortablePython\\Portable Python-3.8.6 x64\\App\\Python\\python.exe",
+		"bookmarks.saveBookmarksInProject": true,
+		"jupyter.jupyterServerType": "local"
 	}
 }
