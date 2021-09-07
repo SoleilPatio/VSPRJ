@@ -1,0 +1,5 @@
+*/.vscode/cscope/*
+out-*/
+log-*.log
+ctags
+ctags.files
