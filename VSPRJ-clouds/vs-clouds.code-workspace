@@ -21,12 +21,7 @@
 			"path": "..\\..\\..\\..\\.."
 		},
 		{
-			"name": "snippets",
-			"path": "..\\..\\..\\..\\..\\..\\..\\..\\APN\\DEV\\VSCode-win32-x64\\data\\user-data\\User\\snippets"
-		},
-		{
-			"name": "WORK-D",
-			"path": "D:\\WORK-D"
+			"path": "..\\..\\..\\..\\..\\..\\..\\..\\APN\\DEV\\PortablePython"
 		}
 	],
 	"settings": {
