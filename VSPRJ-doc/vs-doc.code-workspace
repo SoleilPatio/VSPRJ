@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "VSPRJ-doc",
+			"path": "."
+		},
+		{
+			"name": "dendron-vault",
+			"path": "../../../../../MyDOC-M/dendron-vault"
+		},
+		{
+			"name": "MyDOC-M",
+			"path": "../../../../../MyDOC-M"
+		}
+	],
+	"settings": {
+	}
+}
