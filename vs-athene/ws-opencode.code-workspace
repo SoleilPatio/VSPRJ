@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"name": "vs-athene",
+			"path": "."
+		},
+		{
+			"name": "dotfiles",
+			"path": "../../dotfiles"
+		},
+		{
+			"name": "portable-tools",
+			"path": "../../portable-tools"
+		},
+		{
+			"name": "cls-toolbox",
+			"path": "../../cls-toolbox"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "\\\\mnemosyne\\ndk-datans\\.opencode"
+		}
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+			"${workspaceFolder}/sources/poky/bitbake/lib",
+			"${workspaceFolder}\\sources\\poky\\meta\\lib"
+		],
+		"files.associations": {
+			"*.its": "dts",
+			"*.conf": "bitbake",
+			"*.inc": "bitbake"
+		},
+		"squarl.bookmarks": [
+			{
+				"name": ".bashrc",
+				"path": "\\\\mnemosyne\\docker\\calibre\\.bashrc",
+				"description": ".bashrc",
+				"type": "file"
+			}
+		],
+		"squarl.groups": [
+			{
+				"id": "windows",
+				"name": "Windows"
+			}
+		]
+	}
+}
