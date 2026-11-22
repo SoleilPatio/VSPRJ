@@ -30,9 +30,28 @@
 		},
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../../Users/cloud/AppData/Local/hermes"
 		}
 	],
 	"settings": {
+		// 2026-11-16: "../.." (C:\APN\PRJ) contains links to \\mnemosyne (NDK-LinuxNFS) and D: (GAME).
+		// Python Environments runs findFiles (rg --follow) on every .py create/delete and never cancels
+		// the old one; each scan took 30 s+ through those links, so 1440 rg.exe piled up.
+		// Real fix = C:\APN\PRJ\.ignore (files.exclude is ignored: the extension passes its own exclude).
+		"search.followSymlinks": false,
+		// 2026-11-17: Hermes rewrites hundreds/thousands of .py at once (profile clone/delete at 12:13 and 21:34,
+		// env sync at 21:37 = installs/*/environments) -> each event = one findFiles per workspace folder -> rg
+		// pile-up -> 0x133 crash. The extension's watcher is a string glob, so it obeys files.watcherExclude.
+		// Files here stay visible/searchable; only the Explorer stops auto-refreshing these folders.
+		"files.watcherExclude": {
+			"**/hermes/installs/**": true,
+			"**/hermes/hermes-agent/**": true,
+			"**/hermes/profiles/**": true,
+			"**/hermes/cache/**": true,
+			"**/hermes/backups/**": true
+		},
 		"python.autoComplete.extraPaths": [
 			"${workspaceFolder}/sources/poky/bitbake/lib",
 			"${workspaceFolder}\\sources\\poky\\meta\\lib"
